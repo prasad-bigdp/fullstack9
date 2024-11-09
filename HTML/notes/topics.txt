@@ -1,3 +1,6 @@
+Internet fundamentals
+UI/UX Design (figma)
+
 HTML Introduction
 Formatting tags
 headings,p
@@ -6,3 +9,5 @@ lists
 tables
 media
 semantic,block vs inline
+
+git and github, netlify,vscode
