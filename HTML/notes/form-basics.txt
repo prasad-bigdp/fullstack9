@@ -1,0 +1,23 @@
+Forms: Forms are used to collects users data
+Eg: login,sigup,forgot password, survey, contact,feedback,search bar, subscribe,otp
+
+how to include HTML forms in HTML?
+we can use <form> tag to insert forms in HTML. form tag will take attributes such as
+  -- action: action attribute is used to assign the path to which the form is submitted
+  -- method: method attribute in form is used to define the way that input values are passed
+    Get: by default method value is Get.In Get, it will show all users input values in URL
+    eg:surevy,search etc..,
+    Post: Post method is used to make sure the input values goes to submitted path without showing them in URL.
+Input: we can enter user's data using input tag. input tag is a self closing tag.
+  it have attributes such as 
+  type: used to enter what type of input we want
+  placeholder: used to enter dummytext until actual value entered by user.
+  id: used to identify an element individually
+  name: name is the name by which a value is submitted to certain path
+
+  Instead of placeholder, we can also use label
+  label contains for attribute which is connected to id attribute of input
+
+  To combine all input types, we use fieldset.
+   A fieldset is a box which contains a title
+    through 'legend' tag
