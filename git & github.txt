@@ -6,7 +6,7 @@ Git : Git is a distributed version control system. we need to download and insta
 
   Install by agrreing and install
 
-1. go to terminal --> new terminal -->cmd
+1. go to terminal --> new terminal -->cmd --> git -v
 git init
 git add .
 git commit -m "message"

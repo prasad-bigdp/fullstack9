@@ -9,7 +9,11 @@
     <form action="main.py">
           <fieldset>
             <legend>My Form</legend>
+            <div></div>
             <div>
+                <textarea name="area" id="msg">
+
+                </textarea>
                 <label for="un">Username:</label>
                 <input type="text" id="un" name="un">
             </div><br>
@@ -25,6 +29,63 @@
                 <label for="age">Enter age:</label>
                 <input type="number" name="age" id="age">
             </div><br>
+            <!-- radios - radio buttons are used when we have to choose single choice -->
+             <div>
+                <label>select your gender:</label>
+               <input type="radio" name="gender" value="male" id="m">
+               <label for="m">Male</label>
+               <input type="radio" name="gender" value="male" id="f">
+               <label for="f">Female</label>
+
+             </div><br>
+             <!-- checkboxes are used when we need to select multiple elements/chices or if only one choice-->
+             
+             <div>
+               <label>Languages Known:</label>
+              <input type="checkbox" name="lang" id="en" value="en">
+              <label for="en">English</label>
+              <input type="checkbox" name="lang" value="te" id="te">
+              <label for="te">Telugu</label>
+             </div><br>
+             <!-- DropDown  -->
+              <div>
+                <label>select branch:</label>
+        <select name="branch" id="branch" multiple size="8">
+          <optgroup label="ENGG">
+              <option name="branch"  value="CSE">CSE</option>
+            <option name="branch"  value="eee">EEE</option>
+            <option name="branch"  value="civil">CIVIL</option>
+          </optgroup>
+           <optgroup label="Degree">
+             <option name="branch"  value="BSC">BSC</option>
+            <option name="branch"  value="B,com">B.com</option>
+
+           </optgroup>
+           <optgroup label="Post-graduation">
+             <option name="branch"  value="M.tech">M.tech</option>
+           </optgroup>
+
+        </select>
+              </div><br>
+       
+<datalist id="ice-cream-flavors">
+  <option value="Chocolate">choco</option>
+  <option value="Coconut">coco</option>
+  <option value="Mint">mint</option>
+  <option value="Strawberry">straw</option>
+  <option value="Vanilla">van</option>
+</datalist>
+<div>
+    <input type="text" list="ice-cream-flavors" name="ice-cream-flavors">
+</div>
+
+
+
+
+
+
+
+             <!--- create choices for skills -->
             <div>
                 <label for="clr">Choose colour:</label>
                 <input type="color" name="clr" id="clr">
