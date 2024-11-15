@@ -1,0 +1,39 @@
+is it possible to validate a form without JS?
+Yes, It is possible to validate the form without JS, only using HTML
+why forms needs to be validated?
+Your forms are a gateway to backend, so we need to make sure we/user give actual data
+XSS(cross site scrpting) is a popular technique 
+to enter code in textboxes and finds info. we can avoid it by using form validations
+
+
+
+
+
+
+
+Regular Expressions: Regular Expressions are used to create a search pattern. This pattern makes you validate complex logics like email or specific type of passwords or extensions
+/pattern/ -- regular Expression
+we can directly give pattern inside input as a attribute
+characters("aa"): it matches with name "aa" only
+square brakcets([]): they are used to group
+[A-Z] --  it matches with uppercase alphabets
+curly braces: these are used for specific number of characters
+[A-Z]{3} -- any 3 uppercase characters
+[A-Z]{3,} -- atleast 3 uppercase characters
+repetitors(+ or *): used to get specic/group of characters repeat.
+* -- from  to infinite
++ -- from 1 to infinite
+"ab*c" --> b can repeat from 0 to infinte times
+"ab+c" --> b can repeat from 1 to infinite times
+wildcard(.) -->wildcard mean it can take any character/symbol
+.* --  anything can multiply any number of times
+optional(?) : used to make certain character optional 
+caret(^): it is use to match the start of a scrpting
+d- digits, w-words
+^\d{3}
+$ is used for the gmail
+\d{3}$ -- ending with 3 
+
+
+
+

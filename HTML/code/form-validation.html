@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>ac,abc,abbc,abbbc
+<body>
+    <form action="main.java">
+        <div>
+            <label for="un">Username:</label>
+            <input type="text" id="un" name="un"
+             pattern="ab+c" required>
+        </div><br>
+        <div>
+            <label for="em">Email:</label>
+            <input type="email"  id="em" name="em" >
+        </div>
+        <br>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" min="18" max="200">
+<!-- create a small signup and use online compiler/local vscode and perform form vaildations -->
+        </div><br>
+        <div>
+            <label for="pwd">Password:
+            </label>
+            <input type="password" id="pwd" name="pwd" minlength="6" maxlength="12">
+        </div><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
