@@ -9,5 +9,6 @@ lists
 tables
 media
 semantic,block vs inline
+HTML5
 
 git and github, netlify,vscode
