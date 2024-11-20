@@ -12,3 +12,10 @@ semantic,block vs inline
 HTML5
 
 git and github, netlify,vscode
+
+References:
+-----------
+freecodecamp.org
+dev.to
+hashnode.com
+open source
