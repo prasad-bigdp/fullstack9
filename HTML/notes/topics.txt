@@ -9,6 +9,9 @@ lists
 tables
 media
 semantic,block vs inline
+forms, differnt input of forms
+radio,checkbox,dropdown
+validation
 HTML5
 
 git and github, netlify,vscode

@@ -5,9 +5,15 @@ Your forms are a gateway to backend, so we need to make sure we/user give actual
 XSS(cross site scrpting) is a popular technique 
 to enter code in textboxes and finds info. we can avoid it by using form validations
 
-
-
-
+Required: it is used to make field entry mandatory
+Readonly: it is used to make input  only read but not write
+disabled: it will make the input disabled
+minlength: it will take minimum number of charcter
+maxlength: it will take maximum number of charcter
+min: it will take minimum value
+max: it will take maximum value
+pattern:
+[A-Z]{3,} -- RAJU
 
 
 
