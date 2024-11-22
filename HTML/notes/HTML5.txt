@@ -2,6 +2,14 @@ HTML5   released in 2012. it brings lot of features in HTML such as picture,vide
 
 svg ( scalable vector graphics ):
 svg uses different shapes such as circle,rectangle,line or it also uses path
-canvas
-drag n drop
-data attributes
+   --circle:
+     <svg>
+        <circle cx="" cy="" r="" fill=""></circle>
+     </svg>
+     cx- centerX,cy-centerY,r-radius,fill-color
+canvas: an empty canvas will be created to modify in JS
+drag n drop: we can even perform drag and drop by making draggable="true" and trigger in JS
+data attributes: we can even store data inside HTML elements
+using data attributes.
+
+

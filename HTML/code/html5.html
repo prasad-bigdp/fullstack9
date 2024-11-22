@@ -6,14 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-    <svg height="200" width="200">
+    <!-- <svg height="200" width="200">
         <circle cx="100" cy="100" r="30" fill="red"></circle>
         <rect x="50" y="50" height="100" width="100" fill="blue">
             <animate attributeName="fill"
             from="blue"
             to="green"
            begin="click"
-      dur="2s"
+      dur="0.4s"
       repeatCount="indefinite"></animate>
         </rect>
         <line x1="25" y1="25" x2="85" y2="85" stroke="green" ></line>
@@ -22,8 +22,23 @@
 
   <svg >
     <path d="M 0 0 L 0 0 L 1 1 C 2 1 0 0 2 0" style="background-image: url('./shinchan.jpg');"></path>
-  </svg>
+  </svg> -->
 
+     <svg>
+        <circle cx="100" cy="100" r="50" fill="red">
+          <animate to="50" from="30" dur="1s" begin="click" attributeName="r" repeatCount="indefinite"></animate>
+        </circle>
+        <rect x="50" y="50" height="20" width="300" fill="blue"></rect>
+        <line x1="55" y1="15" x2="185" y2="225" stroke="green" >
+           <animate to="55" from="185" dur="1s" begin="mouseover" attributeName="x2" repeatCount="indefinite"></animate>
+        </line>
+          <text x="10" y="50" font-family="Arial" font-size:"50px">MY NAME IS <tspan fill="red" font-weight="bold">PRASAD</tspan>
+            <animate to="100" from="10" dur="1s" begin="click" attributeName="x" repeatCount="indefinite"></animate></text>
+         <path d="M 150,150 C 100,20 150,200 40,50" fill="transparent" id="my_path"></path>
+         <text>
+          <textPath  href="#my_path">PRASAD</textPath>
+         </text>
+     </svg>
 
 </body>
 </html>

@@ -27,14 +27,17 @@ curly braces: these are used for specific number of characters
 [A-Z]{3} -- any 3 uppercase characters
 [A-Z]{3,} -- atleast 3 uppercase characters
 repetitors(+ or *): used to get specic/group of characters repeat.
-* -- from  to infinite
+* -- from 0 to infinite
 + -- from 1 to infinite
 "ab*c" --> b can repeat from 0 to infinte times
+ac,abc,abbc
 "ab+c" --> b can repeat from 1 to infinite times
+abc
 wildcard(.) -->wildcard mean it can take any character/symbol
 .* --  anything can multiply any number of times
 optional(?) : used to make certain character optional 
 caret(^): it is use to match the start of a scrpting
+$-- end
 d- digits, w-words
 ^\d{3}
 $ is used for the gmail
