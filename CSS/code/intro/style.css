@@ -1,0 +1,70 @@
+/* p{
+    background-color: green;
+    color: yeelow;
+}
+.para{
+    background-color: antiquewhite;
+}
+#bujji{
+    background-color: chocolate;
+} */
+
+
+body{
+    background-color: green;
+}
+h1{
+    color: red;
+}
+.bujji{
+    color: greenyellow;
+}
+#chitti{
+    background-color: white;
+    color: yellow;
+}
+/* direct child */
+/*div>a{ /* a who is direct child of div */
+  /*  color: white;
+}*/
+/* descedant child */
+/*div a {
+color: white;
+}*/
+/* immediate sibling */
+/*h1+p{
+    color: white;
+}*/
+/* General sibling*/
+*{
+    color:red
+}
+h1~p
+{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

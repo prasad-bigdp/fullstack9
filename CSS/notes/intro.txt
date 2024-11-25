@@ -1,0 +1,55 @@
+CSS is used to  define style,design and layout of the web page. Cascading style sheets were introduced in 1994.
+How to link / apply styles to HTML?
+ we can do it by three ways. There are 3 ways to include CSS to HTML.
+   i. inline CSS
+       inline CSS means styling will be applied in the same line of element by taking 'style' as a attribute
+       <element style="properties">dfbmdbmdf
+       </element>
+   ii. internal CSS:
+       internal CSS allows stylng to be applied in the same file but 'style' as a element. it is recommanded to use internal css at the end of head
+        <style>
+        p
+        {
+           background-color: red;
+           color: blue;
+        }
+    </style>
+   iii. external CSS: We can even apply same styling from an external file. the file should be saved as .css extension and will be linked to HTML using 'link' tag
+   <link rel="stylesheet" href="path">
+   Basic Selectors:
+    we can identify HTML elements in CSS using three basic Selectors
+     -- tag Selectors: it is used to select an element using tag
+     -- class selector: it is used to to select sn element using classes. class is an attribute which can be represented by multiple elements
+     To select an element using class, we need to keep prefix as dor
+     -- id selector: it is used to select an element uniquely
+     we use hash for id
+     
+     id>class>tag
+
+     More Selectors:
+    We can select elements based on their position and their parent containers like:
+      i. direct-child(>): it selects elements which are direct child of another element
+       element1>element2
+      ii. descendant(' '): it selects elements which comes in any nested element of parent.
+      element element
+      iii. immediate after sibling(+): it selects elements which comes right after another element
+      element1+element2
+      iv. General sibling: it selects elements which comes after another element
+      element1~element2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
