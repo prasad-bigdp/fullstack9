@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+@import url('./Adleit-Demo.ttf');
+
+body{
+    /* background:linear-gradient(to top,red,blue); */
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+font-family:'Times New Roman', Times, serif;
+font-size: 32px; 
+font-weight: bolder; 
+font-style: italic; 
+height: 100vh;
+text-align: justify;
+}
+p{
+    text-transform: capitalize;
+        text-indent: 150px;
+
+}
+h1{
+    text-align: center;
+    text-decoration: 5px  wavy red underline;
+    text-transform: lowercase;
+    text-shadow: 5px 8px rgb(241, 7, 7);
+}

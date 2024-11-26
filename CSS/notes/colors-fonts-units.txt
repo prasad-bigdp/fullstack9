@@ -1,0 +1,18 @@
+Colors: colors are very important to make user interface more attentive.
+we can define background color to any element using
+  i.color name: we can assign color using default names suggested by code editor
+  ii. Hex Code: Every Color will have a unique code to select it. That code is hexa decimal number.The '#' will be added before
+  eg:#c13450 etc..,
+  iii. RGB(Red,Green,Blue): we can define colors using Red,Green,Blues values ranging from 0 to 255,
+  iv. hsl(Hue,Saturation,lightness): we can define Hue(degree in color line-0 to 359),Satutation(towards darkness),lightness
+  ---> we can even an alpha to rgba and hsla ranging from 0.0-1.0
+
+  websites to refer: https://colorhunt.co/,https://www.realtimecolors.com/, cssgradients.io
+
+Fonts: Font families are of 5 types
+i.serif
+ii.sans-serif
+iii.monospace
+iv.cursive
+v.modern/fantasy
+
