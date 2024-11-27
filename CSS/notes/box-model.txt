@@ -1,0 +1,14 @@
+box model also called "heart of css"
+CSS considers every element as one Box.
+A Box contains
+  -- border: border is the outermost line to define boundary of box
+  border: border-width border-style border-colour
+  -- border-radius: border-radius defines the corner radius, 
+   border-radius:width-size;
+  -- margin: margin is gap of box outside the box
+  we can assign margin:size , it applies to all sides
+  margin:20px -- all sides 20px gap outside the box
+  margin:20px 30px -- top,bottom 20px gap and left and right 30px gap outside the box
+  margin:20px 30px 40px -- top leftRight bottom
+  margin:20px 30px 40px 50px -- top right bottom left
+  -- padding: padding is similar to margin but padding defines the gap inside the box

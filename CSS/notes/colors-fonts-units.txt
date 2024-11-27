@@ -16,3 +16,43 @@ iii.monospace
 iv.cursive
 v.modern/fantasy
 
+To get Differnt fonts,we can use dafont,googlefonts,1001 fonts
+font-properties:
+font-family: defines which family of font we need
+font-size: defines how much size we need of font
+font-weight: defines the weight the font(0-1000),bold,bolder
+font-style: defines the style of the font,norma,italic,oblique etc..,
+
+we can also use some text properties to fonts such as
+text-align:left/right/center/justify
+text-decoration:width style color line-position
+   -- width: size of the text decoration
+   -- style: style of the decoration(solid,dotted,dashed,wavy,double)
+   -- color: defines the color of decoration
+   -- line-position: overline/underline/line-through/none
+text-transform: transforms the text(uppercase/lowercase/captalise)
+text-indent: provides gap before text
+text-shadow: provides shadow for the text
+text-overflow: used to cut the overflowed text
+
+Units:
+units are used to measure a partcular property. There are several ways to represents 
+units such as
+  --px(pixels): smallest unit on screen having a certain resolution of pixels
+  --%(percentages): it will take x% out of 100%
+  -- em(enumerated value): it will take x times of parent font size
+  By default parent font size 16px
+  --rem(root enumerated value): it will always take x% of body font size
+  By default body font size 16px
+  -- vh and vw(viewport height and viewport width):
+    it takes % of viewport(screen)
+
+
+
+
+
+
+
+
+
+

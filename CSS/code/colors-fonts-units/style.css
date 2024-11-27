@@ -12,6 +12,17 @@ font-style: italic;
 height: 100vh;
 text-align: justify;
 }
+#myDiv{
+    background-color: red;
+     height: 50vh; 
+     width: 25vw; 
+    
+}
+.box1{
+    background-color: green;
+    height: 1em;
+    width: 2.5em;
+}
 p{
     text-transform: capitalize;
         text-indent: 150px;

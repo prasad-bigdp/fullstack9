@@ -1,0 +1,17 @@
+.heading{
+    border: 5px double red;
+        /* border-right: 5px double red; */
+      border-bottom-left-radius: 20px;
+            border-top-right-radius: 20px;
+      /* border-left:none;
+      border-bottom:none; */
+        width:fit-content;
+        padding: 20px 100px 30px;
+        /* a b -- a-top,bottom
+                  b-left,right
+          a b c -- a-top
+                   b-left,right
+                   c-bottom
+          a b c d -- top right bottom left*/
+        margin:50px
+        }
