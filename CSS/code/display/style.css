@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.box{
+    background-color: red;
+    border: 1px solid white;
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+.box3{
+    /* visibility: hidden;  */
+}
+/* .x1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+        padding: 20px;
+        border-radius: 50%;
+}
+.x2{
+    height: 60px;
+    width: 60px;
+    background-color: yellow;
+        padding: 15px;
+                border-radius: 50%;
+}
+.x3{
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+            border-radius: 50%;
+} */

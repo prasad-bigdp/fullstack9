@@ -1,0 +1,27 @@
+FlexBox: Flex is used to arrage child items in single direction i.e., row or column
+row -- horizontal
+column -- vertical
+
+Parent Properties:
+ display: flex: arranges all child items by default in row
+ flex-direction: used to arrange child items with specific direction
+  (row/column/row-reverse/column-reverse)
+ flex-wrap: used to wrap up the elements based on space
+  (nowrap/wrap/wrap-reverse)
+ justify-content: used to move elements along main Axis
+ (left/start/right/end/center/space-betwwn/space-around/space-evely)
+ align-items: used to move elements along cross Axis
+ (start/end/left/right/center)
+ align-content: used to move the lines along cross Axis
+  (left/start/right/end/center/space-betwwn/space-around/space-evely)
+gap: used to arrange gap between the items
+
+child Properties: 
+justify-self: used to move child item in main Axis
+align-self: used to move child item in cross Axis
+flex-grow: defines how much to grow when the space is available
+flex-shrink: defines how much to shrink when space is not available
+flex-basis: defines a fixed width
+order: order in which elements are arranged
+
+https://flexboxlabs.netlify.app/

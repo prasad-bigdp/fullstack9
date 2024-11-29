@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 300px;
+    width: 400px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+    /* gap: 10px; */
+   /* flex-wrap: wrap-reverse; */
+   /* flex-wrap: wrap-reverse;
+   align-content: space-around; */
+}
+.box{
+    height: 50px;
+    width: 80px;
+    background-color: red;
+    border: 1px solid white;
+    color: white;
+}
+.box4{
+    /* align-self: end; */
+    /* flex-grow: 2; */
+    flex-shrink: 2;
+}
+.box3{
+        flex-basis: 200px;
+
+}

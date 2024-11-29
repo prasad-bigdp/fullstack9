@@ -1,0 +1,6 @@
+Display: Display is used to change the nature of elements. using this property we can control how to present our elements
+display: inline -- converts element to inline element i.e., they allow next/previous elements beside them but inline will not allow height/width
+display: block -- converts element to block element i.e., they won't allow previous/next element beside them but they allow height and width
+display:inline-block -- converts elements to inline and block such that it allows height and width and also side by side
+display:none -- it will not display the element and remove its space also
+  -- alternative to remove element is visibility:hidden

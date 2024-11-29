@@ -12,3 +12,7 @@ A Box contains
   margin:20px 30px 40px -- top leftRight bottom
   margin:20px 30px 40px 50px -- top right bottom left
   -- padding: padding is similar to margin but padding defines the gap inside the box
+
+  When we apply padding, by defaulr it inceases height and width, to stop height and width to increase, we can use box-sizing: border-box
+
+  we can use universal selector to select all elements
