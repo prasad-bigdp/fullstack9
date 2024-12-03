@@ -1,0 +1,36 @@
+.parent{
+display: grid;
+grid-template-columns:
+repeat(3,100px);
+ /* justify-content: center; */
+/* align-items: center; */
+align-content: center; 
+/* place-items: center; */
+/* gap: 20px; */
+width: 400px;
+background-image: url('../../../HTML/code/shinchan.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+gap: 20px;
+}
+.child{
+  border:1px solid black;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+}
+.child1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.child4{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.child3{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}.child7{
+    grid-column: 1/4;
+}

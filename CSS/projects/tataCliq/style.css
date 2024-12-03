@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    font-size: 48px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0px;
+}
+#categories{
+    display: flex;
+    width: 100vw;
+    gap: 15px;
+    padding: 50px 10px;
+}
+.category img{
+    border-radius: 20px;
+}
+.category img{
+   height: 100%;
+   max-width: 100%;
+   object-fit: fill;
+}

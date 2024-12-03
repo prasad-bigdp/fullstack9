@@ -1,0 +1,9 @@
+Grid is used to place items in two directional way
+i.e., rows and columns
+Grid will be applied to parent/container
+display: "grid" is the property that defines parent grid
+To understand grid, we should understand rows,columns,row-lines,column-lines
+row: horizontal line(x-axis)
+column: vertical line(y-axis)
+row-line: lines which are used to make a row
+column-lines: lines which are used to make a column
