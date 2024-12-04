@@ -22,5 +22,7 @@ git pull origin main/master
 github merge request
 
 git clone 'path'
+git fork :personal copy of another user repository
+when they commit any changes you will get updated by clicking sync fork
 
 changed last line
