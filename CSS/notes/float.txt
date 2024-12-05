@@ -1,0 +1,4 @@
+Float: Float is used to keep an element left or right out of the flow such that the nest element may pass it
+float:left/right/none;
+when we are using float, the text of next element may pass beside the floating element. to clear floating elements you can use "clear"
+clear:right/left/both

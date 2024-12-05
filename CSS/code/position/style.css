@@ -1,0 +1,51 @@
+body{
+    height: 100vh;
+}
+.box{
+    height: 500px;
+    width: 100vw;
+    background-color: red;
+    border: 1px solid white;
+    font-size: 48px;
+    color: white;
+}
+.box2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    position: sticky;
+    top: 0;
+  
+}
+/* .box1{
+    top: 0;
+    left: 0;
+}
+.box2{
+    top: 0;
+    right: 0;
+}
+.box3{
+    bottom: 0;
+    left: 0;
+}
+.box4{
+    bottom: 0;
+    right: 0;
+}
+/* .box3{
+    position: absolute;
+    top: 100px;
+}
+.box4{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+} */
+ /*.box5{
+    z-index: 4;
+ }
+ .box6{
+    z-index:3;
+ } */

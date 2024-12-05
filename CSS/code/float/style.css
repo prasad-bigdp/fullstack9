@@ -1,0 +1,12 @@
+body{
+  
+}
+.image1{
+    float: left;
+}
+.image2{
+    float: right;
+}
+p{
+    font-size: 36px;
+}

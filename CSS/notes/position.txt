@@ -1,0 +1,14 @@
+Position: Using Position you can keep an element anywhere,
+There are 5 positions available in CSS.
+They are:
+  i. static
+  ii. absolute
+  iii. fixed
+  iv.  sticky
+  v. relative
+
+i. static: static Position will not have any impact on top, bottom,left,right. By default all elements will have Position "static"
+ii. relative: relative Position is used to move an element top,bottom,left or right from its current position
+iii. absolute: absolute position is used to move an element based on the body
+iv. fixed: fixed is used to move an element based on body but scrolling will not any impact on it
+v. sticky: sticky is initially relative but later changes to fixed until the parent exists
