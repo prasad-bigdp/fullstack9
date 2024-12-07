@@ -1,0 +1,4 @@
+Transform property is used to change elements position.
+Tranform property deals with mainly
+ -- scale :scale used to zoom. it takes element value compared to previous position
+ eg: scale(2) -- zooms the elements twice of previous size

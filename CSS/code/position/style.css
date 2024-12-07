@@ -1,4 +1,4 @@
-body{
+/* body{
     height: 100vh;
 }
 .box{
@@ -48,4 +48,27 @@ body{
  }
  .box6{
     z-index:3;
- } */
+ } */ 
+
+ body {
+  margin: 20px;
+}
+.box{
+  height:100px;
+  width:100px;
+  background-color:red;
+position:absolute;
+  
+}    
+.box1{
+  z-index:2;
+  left:15px;
+  top:15px;
+}
+.box2{
+  background:linear-gradient(blue,pink);
+  height:110px;
+  width:110px;
+  left:10px;
+  top:10px;
+}

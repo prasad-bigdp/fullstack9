@@ -1,0 +1,66 @@
+/* p::first-letter{
+    color: green;
+    font-size: 48px;
+}
+p::first-line{
+    color: red;
+}
+p::before{ */
+    /* content:'';
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index:0 */
+/* }
+p::after{
+    content:'\0022';
+    font-size: 48px;
+    color: green;
+}
+.box{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+  margin: 10px 0px;
+}
+.box:has(p){
+    background-color: green;
+}
+
+#inp{
+    color: red;
+}
+/* #inp::placeholder{
+    color: red;
+} */
+ /*input:read-write{
+    border: 1px solid red;
+ }
+ a:link{
+color: blue;
+ }
+ a:active{
+    color: green;
+ }
+ a:visited{
+    color: rebeccapurple;
+ }
+  */
+
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 10px 0px;
+    font-size: 32px;
+    color: white;
+}
+/* .child:nth-last-child(odd){
+    background-color: blue;
+} */
+ p.child:nth-last-of-type(2){
+    background-color: blue;
+ }

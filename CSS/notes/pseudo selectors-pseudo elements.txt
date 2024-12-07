@@ -1,0 +1,29 @@
+Pseudo selectors:
+Pseudo selectors used to select an element based on its state or position of an element
+
+Pseudo classes:
+Pseudo classes uses :: to select an element specifically 
+ i. ::first-line: select the first line of the elements text
+ ii. ::first-letter: select the first character of the element
+ iii. ::placeholder: select the placeholder of an input element
+ iv. ::before: used to add/select some content before the element
+ v. ::after: used to add/select some content after the element
+
+ Pseudo elements:
+ Pseudo elements uses : to select an element based on its state or position
+ i. :hover  -- used to select an element whenver mouse is over the element
+ ii. :required -- used to select input which are given as required
+ iii. :optional -- used to select input which are not given as required
+ iv. :disabled -- used to select inputs which are given as disabled
+ v. :enabled -- used to select inputs whivh are not given as disabled
+ vi. :read-only -- used to select inputs which are given as readonly
+ vii. :read-write -- used to select inputs which are not given as readonly
+ viii. :link -- used to select anchor tag initial state
+ ix :active -- used to select anchor tag whenver it is clicked
+ x. :visited -- used to select anchor tag which already visited
+ xi. :not -- used to select multiple elements except specific elements
+ xii. :has -- used to select an element that contains another element
+ xiii. :nth-child -- used to select an element based on its nth position
+ xiv. :nth-last-child -- similar to nth-child but counts elements from last
+ xv. :nth-of-type -- used to select an element based on position and type
+ xvi. :nth-last-of-type -- used to select an element based on position and type from last
