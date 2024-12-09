@@ -2,3 +2,10 @@ Transform property is used to change elements position.
 Tranform property deals with mainly
  -- scale :scale used to zoom. it takes element value compared to previous position
  eg: scale(2) -- zooms the elements twice of previous size
+ -- rotate : rotate is used to rotate the element by some degree
+ rotate(degree)
+ -- translate() -- used to move the element x or y or z axis
+ translateX(size) or translateY(size)
+
+ Transitions: Transition are observation between two state.
+ transition: properties/all duration(s/ms) timing-functions(ease/ease-in/ease-out/ease-in-out/linear)

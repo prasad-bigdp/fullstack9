@@ -1,0 +1,2 @@
+Animations are implemented with multiple states
+Animations can be started without any trigger also
