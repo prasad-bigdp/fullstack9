@@ -13,8 +13,8 @@
 body{
  font-family: "Signika Negative", sans-serif;
  font-size: 16px;
- background: url('https://framerusercontent.com/images/FQYrXKitdmXQJ84vKPNLT1ZzQ.jpg?scale-down-to=2048'); 
- /* background: radial-gradient(at 53% 78%, rgba(255, 255, 0, 0.3) 0px, transparent 50%), radial-gradient(at 71% 91%, rebeccapurple 0px, transparent 50%), radial-gradient(at 31% 91%, rgba(255, 128, 0, 0.17) 0px, transparent 50%); */
+ /* background: url('https://framerusercontent.com/images/FQYrXKitdmXQJ84vKPNLT1ZzQ.jpg?scale-down-to=2048'); */
+ background: radial-gradient(at 53% 78%, rgba(255, 255, 0, 0.3) 0px, transparent 50%), radial-gradient(at 71% 91%, rebeccapurple 0px, transparent 50%), radial-gradient(at 31% 91%, rgba(255, 128, 0, 0.17) 0px, transparent 50%);
  background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
@@ -31,6 +31,8 @@ header{
 }
 .logo{
    font-size: 2.5rem;
+   animation-duration: 1s !important;
+   animation-direction: alternate;
 }
 .logo span{
   color: var(--primary-color);
@@ -211,6 +213,7 @@ footer{
         flex-direction: column;
         gap: 20px;
         align-items:center;
+        height: auto;
      }
      #about{
         flex-direction: column;
@@ -254,6 +257,7 @@ header{
         flex-direction: column;
         gap: 20px;
         align-items:center;
+        height: auto;
      }
      #about{
         flex-direction: column;
@@ -268,10 +272,13 @@ header{
      }
 }
 /* tab landscape*/
-@media (min-width:769px) and (max-width:992px){
+@media (min-width:769px) and (max-width:1120px){
      header{
     flex-direction: column;
  } 
+ #banner{
+    height: auto;
+ }
     .logo{
         font-size: 2rem;
      }

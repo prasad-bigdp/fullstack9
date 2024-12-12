@@ -1,0 +1,13 @@
+Libray is a pre written code used for specific purposes.
+ imagine i gave some css file to you as following:
+   .x{
+    background-color:blue;
+   }
+   .y{
+    background-color:red
+   }
+now you have to write HTML,which shows h1 "hellow world" in bg color red
+  <h1 class="y">Hello World</h1>
+
+  Libraries are also works similarly.
+Example library: animate css

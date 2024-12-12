@@ -1,0 +1,33 @@
+Bootstrap is a CSS framework  or component library which is used for responsive UI purposes
+A library is a pre written code used for specific purposes
+A framework provides developer complete needs.
+Bootstrap is more of library than framework.
+we are in current version 5 in Bootstrap.
+offical website: getbootstrap.com
+
+How to include Bootstrap into HTML?
+  step 1: goto official website --> docs --> introduction --> copy css cdn links
+  step 2: paste the links in head of html code
+  step 3: apply the class names according to documentation
+
+Colors:
+Bootstrap uses 8 colours with different names as below:
+names        Colors
+primary       blue
+secondary     grey
+danger        red
+success       green
+info          skyblue similar
+warning       yellow similar
+dark          black
+light         white
+It is possible to use these colors in different properties such as bg, text,btn etc..,
+
+Layout:
+Bootstrap follows grid layout with 12 columns per row
+
+
+
+
+
+
