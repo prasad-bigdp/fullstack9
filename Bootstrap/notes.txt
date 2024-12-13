@@ -25,6 +25,68 @@ It is possible to use these colors in different properties such as bg, text,btn 
 
 Layout:
 Bootstrap follows grid layout with 12 columns per row
+'row' classname represents a row with 12 columns
+'col' class name represents auto sized columns
+columns can also specify size by 'col-width'
+'container' class name is used to have auto margins left and right
+'container-fluid' class name is used for not having auto margins left and light
+
+Eg:
+ <div class="container">
+   <div class="row">
+     <div class="col"></div>
+     <div class="col"></div>
+   </div>
+</div>
+
+Breakpoints: To Generate Responsive UI withoust the hassle of media queries, bootstrap follows mobile first design with following break points.
+classname     size
+-----        ------
+  none         <576px
+  sm           >=576px
+  md           >=768px
+  lg           >=992px
+  xl           >=1200px
+  xxl          >=1400px
+
+  we can mention any property in Bootstrap using breakpoints such that it will be effective only from that breakpoint size
+ 
+utilities: Bootstrap can also perform so many utilities such as padding,margin,border,border-radius,flex,display,float,pos,fontsizes,bg,text properties
+Bootstrap cannot perform transitions or animations or pseudo elements
+p -- padding (pt,pb,ps,pe)
+m -- margin (mt,mb,ms,me)
+border -- border,border-color,border-size
+rounded -- border-radius
+bg-color  -- background
+text-color -- text-color
+d-displayname -- display(d-block,d-inline,d-none,d-inline-block,d-flex)
+fs-size  -- font size(fs-1 is largest and fs-6 is smallest one)
+float-side -- float side
+position-positionname -- position
+
+components: Bootstrap also provides ready made components like cards,carousels,navbar,modals etc..,
+For using components, we need to add bootstrap js cdn link also 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
