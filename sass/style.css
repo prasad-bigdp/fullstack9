@@ -1,0 +1,19 @@
+body {
+  background-color: red;
+}
+
+li {
+  background-color: red;
+}
+li a {
+  text-decoration: none;
+}
+
+ul {
+  color: red;
+}
+ul li {
+  color: green;
+}
+
+/*# sourceMappingURL=style.css.map */

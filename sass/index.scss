@@ -1,0 +1,18 @@
+$color:red;
+
+$font-size:25px;
+body{
+    background-color: $color;
+}
+li{
+    background-color: $color;
+    a{
+        text-decoration: none;
+    }
+}
+ul{
+    color: $color;
+    li{
+        color: green;
+    }
+}

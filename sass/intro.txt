@@ -1,0 +1,22 @@
+Sass(Syntactically awesome style sheets is a preprocessor of CSS which will be compiled as CSS). it makes CSS module,effiecient and easier to maintain.
+
+It have features such as 
+  -- variables
+  -- nesting
+  -- mixins
+  -- functions
+  -- control statements like @if,@else,@for,@while
+
+we have two variations in it
+ -- scss(sassy CSS): it is exact CSS with variables and nesting
+ -- sass(indented syntax): it is also similar to CSS but it uses indentation rather than brackets for nesting
+
+ How to use:
+  we need to download and install sass compiler 
+    npm install sass ( before write this command install nodejs into your system )
+  write sass code in code editor
+    create .scss files and write some nested code ans save
+  compile sass and it will be converted to css
+   go to terminan>new terminal
+   cd foldername where .scss is there
+   "sass filename.scss filename2.css"
