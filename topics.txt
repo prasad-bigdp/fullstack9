@@ -1,27 +1,29 @@
 UI & UX Design:  figma
 HTML : introduction,
-headings,p
-a,img
-lists,tables
-forms,validations,
-semantic
-block vs inline
-formatting
-media
-HTML5
+      headings,p
+      a,img
+      lists,tables
+      forms,validations,
+      semantic
+      block vs inline
+      formatting
+      media
+      HTML5
 CSS: introduction,
-units,fonts,colors,bg,gradients
-box model
-display - block,inline,inline-block,nobe
-flex
-grid
-float
-pseudo elements and classes
-transitions,animations
-position
-media queries
+     units,fonts,colors,bg,gradients
+     box model
+     display - block,inline,inline-block,nobe
+     flex
+     grid
+     float
+     pseudo elements and classes
+     transitions,animations
+     position
+     media queries
 
 Project: HTML&CSS website
+Bootstrap : 1 website
+preprocessor : sass
 
 Git & Github
 

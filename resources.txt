@@ -1,0 +1,41 @@
+UI & UX:
+-------
+https://dribbble.com/
+https://www.behance.net/
+https://mobbin.com/
+https://www.awwwards.com/
+figma
+
+HTML:
+-----
+https://www.freecodecamp.org/
+
+CSS:
+-----
+https://www.freecodecamp.org/
+frontendmentor
+frontendchallenge
+cssbattle
+flexboxfroggy
+grid gradient
+css diner
+codepen
+
+templates site:
+htmlrev
+startbootstrap
+
+photos,videos,illustrations
+undraw
+freepik
+unsplash
+clipathmaker
+ai tools(ideogram,https://www.piclumen.com/)
+
+https://github.com/markodenic/web-development-resources
+
+communities:
+dev.to
+hashnode
+daily dev
+medium
