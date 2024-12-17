@@ -27,5 +27,3 @@ preprocessor : sass
 
 Git & Github
 
-Bootstrap - website
-sass

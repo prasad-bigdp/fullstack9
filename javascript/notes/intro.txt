@@ -1,0 +1,38 @@
+Javascript is  a high level,versatile programming language primarily used for the functionality and interactivity of web pages. Javascript uses JIT(Just In TIME) compiler which is in browser's JS Engine. Every Browser have JS engine and that is used to compiler, run Javascript.
+Eg: chrome JS Engine -- v8
+scripting languages always runs code line by line
+
+History:
+JS is launched on December 4th, 1995 and was created by Brendan Eich at NESCAPE communications.
+Initially It is named as "LiveScript", but later for marketing purposes they change to "javascript" to capture java market.
+
+EcmaScript,the standard specificatio for JAVASCRIPT aquired it and evolved until ES14 recently
+
+How to include JS into HTML?
+To include Javascript into HTML,we can use two ways
+i. Internal Javascript
+Internal JAVASCRIPT means we can write javascript code into html using script element
+    <script>
+        console.log("hello world")
+    </script>
+ii. External Javascript:
+External Javascript means we can use external file or third party websites using script tag with src attribute
+  <script src="./script.js"></script>
+
+  Javascript is case sensitive
+  Javascript code is recommanded to be written or mentioned at the end of the body
+
+JS runs in the browser. Every Browser provides some Tools to make developer work easy. These tools are called as Developer Tools. concole is the part of developer Tools.console.log() is used print a value and debug the code(finding out the bugs)
+
+comments in JS: Comments are used for the readabilty purposes. There are two ways to write the comments
+   -- single line comment: it  is represented as '//'
+   -- double line comment : it is represented between /* and */
+
+variables:
+ variables are used to store the data which varries
+There are three ways:
+i. var: var is a function scope variable which can redeclare and reassign
+ii. let
+iii.const
+
+
