@@ -32,7 +32,20 @@ variables:
  variables are used to store the data which varries
 There are three ways:
 i. var: var is a function scope variable which can redeclare and reassign
-ii. let
-iii.const
+ii. let: let is a block scoped variable which cannot redeclared but can be reassigned
+iii.const: const is a block scoped variable which cannot be redeclared or reassigned
+
+
+There are some default methods in Javascript such as
+  i. alert(msg): alert is used to alert the user with a specific message
+  ii. confirm(msg): confirm is used to accept user's choice to confirm a task or not. it retuns true or false
+    
+
+
+
+
+
+
+
 
 

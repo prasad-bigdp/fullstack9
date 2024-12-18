@@ -8,7 +8,7 @@ function fun ()
 {
     if (true)
     {
-        y = 25; 
+      var  y = 25; 
     }
     console.log(y)
 }
@@ -31,7 +31,7 @@ function fun ()
 fun()
 
 let x1 = 25;
- x1 = 35;  //redclare is not possible
+  x1 = 35;  //redclare is not possible
 let z = 30;
 z = 45; //reassign
 
