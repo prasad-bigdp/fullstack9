@@ -6,7 +6,7 @@ History:
 JS is launched on December 4th, 1995 and was created by Brendan Eich at NESCAPE communications.
 Initially It is named as "LiveScript", but later for marketing purposes they change to "javascript" to capture java market.
 
-EcmaScript,the standard specificatio for JAVASCRIPT aquired it and evolved until ES14 recently
+EcmaScript,the standard specification for JAVASCRIPT aquired it and evolved until ES14 recently
 
 How to include JS into HTML?
 To include Javascript into HTML,we can use two ways
@@ -39,7 +39,7 @@ iii.const: const is a block scoped variable which cannot be redeclared or reassi
 There are some default methods in Javascript such as
   i. alert(msg): alert is used to alert the user with a specific message
   ii. confirm(msg): confirm is used to accept user's choice to confirm a task or not. it retuns true or false
-    
+  iii.  prompt(msg) : prompt is used to accept user's input as a string 
 
 
 

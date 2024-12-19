@@ -1,0 +1,24 @@
+DataTypes are used to define the type of data the variable have.javascript follows dynamic data typing(data types are not fixed)
+eg: let x=25;
+x="jhfb"
+let x = 25;
+console.log(typeof (x))
+x = "raj"
+console.log(typeof x);
+There are two classifications of data types
+ i. primitive datatypes:
+ primitive values stores single data
+ primitive values compares values.
+ most basic primitive data types are 
+   a.number: Any numerical data is number. 
+   eg: let n1=5,n2=7.6254;
+     default methods: 
+      1. toFixed(n): toFixed is used to return them after rounding it up for n decimal digital
+      2. toPrecision(n): toPrecision is used to return the number after rounding it up for n significant digits
+      3. toString(n): toString is used to convert a number to string with n base value
+    numbers alsp supports Math methods
+   b.string:
+   c.boolean:
+   d.undefined:
+   e.null:
+ ii. non-primitive datatypes:
