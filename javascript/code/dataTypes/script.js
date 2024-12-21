@@ -1,4 +1,4 @@
-let x = 25;
+let x = Infinity;
 console.log(typeof (x))
 x = "raj"
 console.log(typeof x)
@@ -20,3 +20,43 @@ console.log(Math.round(2.4))
 console.log(Math.pow(2, 3), 2 ** 3) //8
 console.log(Math.ceil(Math.random() * 10000))
 console.log(Math.ceil(Math.random() * 6))
+
+//strings
+// let str = 'The gandhi said, "good morning"'
+let str= "Time is 10 o' clock"
+console.log(str)
+let a = 5, b = 20;
+// print in console , The sum of 10 and 20 is 30
+console.log("The sum of " + a + " and " + b + " is " + (a + b))
+console.log(`The sum of  ${a} and ${b}  is  ${(a + b)}`)
+let cost = 100, quantity = 4
+// print in console, The total cost if 4 apples with each price of ₹100 is ₹400*/
+console.log(
+    `The total cost of ${quantity} with each price of ₹${cost}  is ₹${cost * quantity}`,
+)
+
+str = "javascript";
+console.log(str.length) //10
+console.log(str.toUpperCase()) //JAVASCRIPT
+console.log(str)
+console.log(str.toLowerCase()) //javascript
+console.log(str.startsWith('ja')) //T
+console.log(str.endsWith('pt')) //T
+console.log(str.charAt(2))
+console.log(str.indexOf('a'))
+console.log(str.lastIndexOf("a"))
+console.log(str.concat(" is easy"))
+console.log("javascript is easy".split(''));
+console.log(str.slice(2, 5))//vas
+console.log("    prasad    ".trim())
+
+
+
+
+
+
+
+
+
+
+
