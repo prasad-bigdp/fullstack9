@@ -12,7 +12,7 @@ HTML : introduction,
 CSS: introduction,
      units,fonts,colors,bg,gradients
      box model
-     display - block,inline,inline-block,nobe
+     display - block,inline,inline-block,none
      flex
      grid
      float
@@ -27,3 +27,6 @@ preprocessor : sass
 
 Git & Github
 
+Javascript: introduction,
+            developer tools
+            data types(number-math methods,string-methods)

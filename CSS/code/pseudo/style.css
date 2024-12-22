@@ -50,17 +50,72 @@ color: blue;
  }
   */
 
-.child{
+/* .child{
     height: 100px;
     width: 100px;
     background-color: red;
     margin: 10px 0px;
     font-size: 32px;
     color: white;
-}
+} */
 /* .child:nth-last-child(odd){
     background-color: blue;
 } */
- p.child:nth-last-of-type(2){
+ /* p.child:nth-last-of-type(2){
     background-color: blue;
+ } */
+
+
+ /* pseudo elements -- :: */
+ .para::first-letter{
+    color:red
+ }
+  .para::first-line{
+    color:red
+ }
+ input::placeholder{
+    color: green;
+ }
+ .para::before{
+    content:"\201C";
+    font-size: 48px;
+ }
+  .para::after{
+    content:"\201D";
+    font-size: 48px;
+ }
+ .parent{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    width: 800px;
+    height: 600px;
+ }
+ .child{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+ }
+
+ /* pseudo classes */
+ .child:hover{
+    transform: scale(1.05);
+    background-color: green;
+ }
+ .child:nth-child(odd){
+   background-color: black;
+   border: 1px solid white;
+ }
+
+ /* laptops */
+ /* pcs */
+ @media(min-width:999px) and (max-width:1200px){
+
+ }
+ /*tablets*/
+  @media(min-width:571px) and (max-width:998px){
+  
+ }
+ /* phone */
+  @media (max-width:570px){
+    
  }
