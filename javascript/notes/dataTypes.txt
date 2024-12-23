@@ -17,8 +17,62 @@ There are two classifications of data types
       2. toPrecision(n): toPrecision is used to return the number after rounding it up for n significant digits
       3. toString(n): toString is used to convert a number to string with n base value
     numbers alsp supports Math methods
-   b.string:
-   c.boolean:
+    Math Methods:
+      1. Math.sqrt(n) -- used to return square root of n
+      2. Math.cbrt(n) -- used to return cube root of n
+      3. Math.pow(a,b) -- used to return a power b
+      4. Math.max(a,b,c) -- used to return maximum value between a , b and c
+      5. Math.min(a,b,c) -- used to return minimum value between a,b and c
+      6. Math.abs(n)  -- used to return absolute value of n(remove the negitive)
+      7. Math.ceil(n) -- used to return nearest larger integer
+      8. Math.floor(n) -- used to return nearest smaller integer
+      9. Math.round(n) -- used to return round figure integer of n
+      10. Math.random() -- used to return value between 0.0 to 1.0
+ 
+  b.strings:
+       strings are used for alphanumerical values. strings can be represnted as ' ' or " " or ` `
+      single or double quotations: In JS , there is no difference between single or double , usage depends on case 
+     Eg: let str="The gandhi said, "good morning""
+     backticks: Representation of strings using back ticks is called template literal.
+      Template literals are used to print/store the data with dynamic values without breaking
+     the string
+    Eg:let cost = 100, quantity = 4
+          // print in console, The total cost if 4 apples with each price of ₹100 is ₹400*/
+        console.log(`The total cost of ${quantity} with each price of ₹${cost}  is ₹${cost * quantity}`)
+     Default methods:
+      strings have some default methods such as
+     i. length  -- used to find the no.of characters in a string
+    ii. toUpperCase() -- used to convert the given string into uppercase
+        Note: strings are immutable(cannot change), so any methods apply on string will not effect the string. it just returns new string
+   iii.toLowerCase() -- used to convert the given string into lowercase
+     console.log(str.toLowerCase()) //javascript
+    iv.startsWith() -- used to verify whether the string is starting with given input or not. returns boolean
+    console.log(str.startsWith('ja')) //T
+    v.endssWith() -- used to verify whether the string is ending with given input or not. returns boolean
+     console.log(str.endsWith('pt')) //T
+    vi. charAt(): returns character at given index in a string.
+     console.log(str.charAt(2))
+    vii. indexOf(): returns the first occurence of given chracter index.
+    console.log(str.indexOf('a'))
+    viii. lastIndexOf(): returns the lastIndexOf of last occurence of given chracter.
+     console.log(str.lastIndexOf("a"))
+     ix. concat(): concat is used to add two strings.
+      console.log(str.concat(" is easy"))
+     x.split: split is used to split the given string based on delimiter.
+     console.log("javascript is easy".split(''));
+     xi. slice(): slice is used to cut the given string into a sub string
+     console.log(str.slice(2, 5))//vas
+     x. trim(): trim is used to remove the space at the ends of the string
+    console.log("    prasad    ".trim())
+
+   c.boolean: boolean is used to store the values true or false.true can converted as 1 and false can be converted as 0.
+
    d.undefined:
+    undefined represents an accidental absence of value.
+    eg:a= undefined.
+
    e.null:
+    null means an intentional absence of value.
+    Hoisting is a built in js feature that moves variables,functions to the top of their declation before execution of code.
+    call stack: all the global execution content and local execution content will be maintained by call stack(LIFO)
  ii. non-primitive datatypes:

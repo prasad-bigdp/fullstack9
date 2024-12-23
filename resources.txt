@@ -5,7 +5,7 @@ https://www.behance.net/
 https://mobbin.com/
 https://www.awwwards.com/
 figma
-
+uistore.design
 HTML:
 -----
 https://www.freecodecamp.org/
@@ -33,6 +33,7 @@ clipathmaker
 ai tools(ideogram,https://www.piclumen.com/)
 
 https://github.com/markodenic/web-development-resources
+https://web-dev-resources.com/
 
 communities:
 dev.to
