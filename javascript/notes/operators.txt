@@ -1,0 +1,53 @@
+operators: operators are used to perform an operation between the operands.
+Eg: a+b where a,b are operands and + is an operator
+we have several types of operators such as
+  i. Arithematic operators: Arithematic operators are used to perform Arithematic calculations such as
+    a. + --- used for addition
+    b. - --- used for subtraction
+    c. * --- used for multiplication
+    d. / --- used for division eg: 10/3=3.333
+    e. %(modulo) --- used for remainder eg: 10%3=1
+    f. **  --- used for power. eg: 2**3 =8
+
+  ii. Relational operators: Relational operators are used to compare two/more values and returns boolean.
+    a. >(greater than): returns true if first value is greater than second value else return false
+    b. <(less than): returns true if first value is less than second value else return false
+    c. >= (greater than or equals to): returns true if the first value is greater than or equals to second value
+    d. <= (less than or equals to):returns true if the first value is less than or equals to second value
+    e. == (equals to): equals to checks the value
+    f. === (strict equals to): it checks both value and datatype. 
+    g. != (not equals to)
+    h. !== (strict not euals to)
+  iii.logical operators : logical operators are used to dispay the conditions based on a conjunction rule
+    a. logical and: it will be true only if both the  statements were true
+    b, logical or : it will be false only if both the  statements were fakse
+    c. logical not : it will be true if the condition is false
+  iv. Assignment operators:
+    These operators are used to assign a value
+    a. +=  ----> a+=2 =>a=a+2
+    b. -=  ----> a-=2 => a=a-2
+    c. *=  ----> a*=2 => a=a*2
+    d. /=  ----> a/=2 => a=a/2
+    e. %=  ----> a%=2 => a= a%2
+    f. **= ----> a**=2 => a= a**2 
+  v. increment and decrement operators: Increment and decrement operators are used to increase or decrease the value by 1.
+  ++ -- increase the value by 1
+    -- pre increment: ++a -- first updates the value and assigns the value
+    -- post increment : a++ -- first assigning and then update.
+  -- -- decrease the value by 1
+  pre and post decrements are similar to increment 
+
+  vi. Ternary or conditional operator:
+     In this operator, we will have three operands
+     syntax: (condition) ? statement1 : statement2;
+     it returns statement1 if condition is true else returns statement 2;
+     eg:  let c= (10>15) ? "prasad" : "jyothi"
+
+  vii. special operators: we have some special operators such as
+   unary + or unary -: These operators used to convert any data type to number.
+   eg: +'5' -->5
+
+   nullish coelsion (??): it is used to choose between two values and it picks second value only if first value is null or undefined
+   eg: let x= a ?? b;
+
+   typeof : typeof is an operator used to find type of given variable.

@@ -75,4 +75,8 @@ There are two classifications of data types
     null means an intentional absence of value.
     Hoisting is a built in js feature that moves variables,functions to the top of their declation before execution of code.
     call stack: all the global execution content and local execution content will be maintained by call stack(LIFO)
+
  ii. non-primitive datatypes:
+   we have non-primitive data types such as functions,arrays and objects.
+   These datatypes are used to store multiple data and these are also called reference
+   data types.
