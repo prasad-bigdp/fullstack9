@@ -1,0 +1,26 @@
+JAVASCRIPT:
+  i. BASICS:
+       intro,variables
+       datatypes(number-math methods,strings,boolean,undefined,null)
+       JS engine(call stack,execution context, Hoisting)
+       operators
+       arrays
+       objects
+       control statements(if and switch)
+       loops(while,dowhile,for,for..in,for..of)
+       functions
+  ii. DOM
+       --select DOM
+       -- manipulate DOM
+       -- create DOM
+       -- events
+ iii. Async(AJAX):
+       --timers
+       --promises
+       --API,JSON,XML
+       --async await
+       --ES6
+       --OOPS
+  iv. advanced:
+       -- BOM
+       -- Libraries

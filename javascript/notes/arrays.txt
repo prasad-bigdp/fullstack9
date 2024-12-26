@@ -1,0 +1,23 @@
+Arrays are used to store certain values. Array is a collection of elements. Array store every value with an address/refernce called index. indexes starts from 0
+Eg: let arr=[5,4,3,8]
+
+Arrays are treated as 'object' datatype.
+
+//Arrays have default methods
+  i. length : length is used to return total number of elements in the array
+  ii. indexOf: indexOf is used to find/return the indexOf first Occurrence of given element
+  lastIndexOf: lastIndexOf is used to find/return the index of last Occurrence of given element
+  iii. concat : concat is used to add two arrays.
+
+*** Array is a non-primitve or reference data type. Arrays are mutable.
+primitve data types compares values and non primitve data types compares address. primitve data types like strings are immutable(won't be changed) 
+but non primitive datatypes like  arrays are mutable (will be changed)
+
+   iv. push(): push is used to Append new elements to the end of an array, and returns the new length of the array.
+    Eg: arr.push(5)
+    5 will be added at end of array arr
+   v. pop(): pop removes the last element from an array and returns it. If the array is empty, undefined is returned and the array is not modified if it is empty.
+   vi. unshift(): unshift is used to append new elements to the start of the array and returns the new length of the array
+   vii. shift(): shift is used to remove the first element of the array
+   viii. splice(starting_index,deleteCount,insertingElements):
+   

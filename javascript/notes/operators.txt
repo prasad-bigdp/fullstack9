@@ -19,9 +19,9 @@ we have several types of operators such as
     g. != (not equals to)
     h. !== (strict not euals to)
   iii.logical operators : logical operators are used to dispay the conditions based on a conjunction rule
-    a. logical and: it will be true only if both the  statements were true
-    b, logical or : it will be false only if both the  statements were fakse
-    c. logical not : it will be true if the condition is false
+    a. logical and (&&): it will be true only if both the  statements were true
+    b, logical or(||) : it will be false only if both the  statements were fakse
+    c. logical not(!) : it will be true if the condition is false
   iv. Assignment operators:
     These operators are used to assign a value
     a. +=  ----> a+=2 =>a=a+2
