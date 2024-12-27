@@ -20,4 +20,5 @@ but non primitive datatypes like  arrays are mutable (will be changed)
    vi. unshift(): unshift is used to append new elements to the start of the array and returns the new length of the array
    vii. shift(): shift is used to remove the first element of the array
    viii. splice(starting_index,deleteCount,insertingElements):
-   
+   ix. forEach(): forEach is used to iterate all the elements of the array and pass a call back for each and every element of the array
+   syntax: array-name.forEach(callback)

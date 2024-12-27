@@ -23,19 +23,22 @@ console.log(arr == arr2);
 
 arr = [1, 5, 4];
 // push
-arr.push(6)
-arr.push(10,11,12,13,14,15)
-console.log(arr)
+arr.push(6) // [1, 5, 4, 6]
+arr.push(10,11,12,13,14,15) //[1, 5, 4, 6,10,11,12,13,14,15 ]
+console.log(arr)//[1, 5, 4, 6,10,11,12,13,14,15 ]
 arr.pop()
 arr.shift()
-console.log(arr)
+console.log(arr)//[5, 4, 6,10,11,12,13,14]
 arr.unshift(14,15)
-console.log(arr)
+console.log(arr)//[14,15 , 5, 4, 6,10,11,12,13,14]
 arr = [1, 2, 3, 4]
-arr.splice(2, 0,7,8,9)
-console.log(arr)//1 2 7 8 9 3 4
+arr.splice(2,1,5,8,9)
+console.log(arr)//1 2 5 8 9 4
 
-
+let friends = ["penny", "chandler", "ross", "rachel", "monica", "sheldon"]
+// 1. remove penny and add pheobe
+//2. remove sheldon and add joey
+//3. between ross and rachel add justin
 
 
 
