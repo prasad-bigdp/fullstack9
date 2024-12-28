@@ -1,0 +1,86 @@
+Function: function is used to do a particular task. The code can be divided into multiple logical tasks called functions. The main advantages of functions are reusability and easy to debug and understand
+
+  -- simple function 
+  function function-name(){
+   // function definition
+  }
+  function_name() // function call
+
+Function can accept parameters/arguments which are passed in function call
+   function function_name(a,b){
+    //function definition
+   }
+   function_name(5,3)
+   then a will be assigned 5 and b value will be 3,
+
+In a case the number of values passed are less than the actual arguments function expects , then remaining values will be by default 'undefined'
+
+REST and SPREAD operators:
+   REST operator is used to combine the rest of the elements as a array. 
+  Eg:  function function_name(a,...b){
+  //function definition
+ }
+ function_name(5,4,3,2,1)
+ Here a value is 5 and b value is [4,3,2,1]
+ REST operator is denoted by three dots and it will be always the last parametr/argument
+ 
+ SPREAD operator is used to spread/split the rest of element out of the array
+ Eg: function function_name(){
+      let arr=[2,5,6,7];
+      let brr= ["john",...arr]
+      console.log(brr)
+ }
+ function_name()
+
+
+function expressions:
+functions can be expressed as a variable so that we can name an anonymous  functions
+eg: let var_name= function(){
+  //definition
+}
+
+Difference between function and function expression is functions have a name and function expression explicitly gives name to anonymous functions
+
+
+function expressions can also be expressed as arrow functions. Arrow functions are the modern way of representing functions.
+
+let var_name= () => {
+  //definition
+}
+
+callback functions: 
+  callback functions are the functions which are written/passed as a parameter to another function.
+  function fun1(){
+
+  }
+  function fun2(x){
+    x()
+  }
+  fun2(fun1)
+
+closure: closures are used to store user's response/input -output values for faster results
+closure means inner function remembers outer function values
+even after outer function execution ended
+
+In real time closures are used for memorisation techniques
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
