@@ -22,3 +22,40 @@ but non primitive datatypes like  arrays are mutable (will be changed)
    viii. splice(starting_index,deleteCount,insertingElements):
    ix. forEach(): forEach is used to iterate all the elements of the array and pass a call back for each and every element of the array
    syntax: array-name.forEach(callback)
+   map():  --- map is used to iterate all the values of the array and pass a callback for each and every element of the array but it also can return the values
+
+arrayName.map(callback)
+
+filter() --- filter is used to iterate all the values of the array and pass a callback for Each and every element of the array but it returns only elements whose condition is true
+
+arrayName.filter(callback)
+
+some() --- some is used to check atleast for one of the value of array, the given condition must be true. else it returns false
+let vari_name = arrayName.some(callback)
+
+every() --- every is used to check whether all the values of the array are satisfying the given condition or not
+let vari_name = arrayName.every(callback)
+
+find()  --- find is used to find the first element that satisfies the given considition
+let vari_name = arrayName.find(callback)
+
+reduce() --- reduce is used to find the cumulative values such that each values uses its previous result
+ arrayName.reduce(callback(prev,ccurr),initial_value)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
