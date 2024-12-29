@@ -145,6 +145,36 @@ z() //2
 
 
 
+// currying
+function fun1 (x)
+{
+    function fun2 (y)
+    {
+        return x*y
+    }
+    return fun2
+}
+let z1 = fun1(5)
+console.log(z1)
+z1(6);
+z1(5);
+z1(4)
+z1(3);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
