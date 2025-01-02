@@ -1,0 +1,42 @@
+control statements are used to make certain decisions. Based on the decision's result, the flow of code might change.
+i . If: if is used to check whether to execute a block or not based on certain condition
+ // simple if
+ if(condition){
+    //code
+ }
+ //if--else : it contains both true and false executions
+ if(condition){
+    //code
+ }
+ else{
+    //code
+ }
+ // if--else-if --else: it is used to deal multiple options
+
+if(condition){
+
+}
+else if(condition1){
+
+}
+else{
+
+}
+
+
+writing if else if is tiresome 
+but we can make it more organixed using switch
+switch checks the value with one of the cases. each case must have break;
+
+switch(value)
+{
+    case value1://code break;
+    case value2://code break;
+    case value3://code break;
+    default://code
+}
+
+
+
+
+
