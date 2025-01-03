@@ -1,0 +1,47 @@
+Loops are used to iterate certain statements. iterate means repeat
+Loops are divided as two types
+i. Entry control Loops
+ii. Exit control Loops
+To work with loops, we need initialization, condition , updation
+i. Entry control loops: Entry control loops checks the condition at the start/entry of the loop
+Eg: while,for
+ii. Exit Control loops: Exit control loops checks the condition at the exit of the loop
+Eg: dowhile
+
+
+
+i. while: while is an entry control loop used to iterate certain statements based on a condition
+initialization;
+while(condition){
+    //code
+    updation;
+}
+
+ii. dowhile: do while is an exit control loops used to iterate certain 
+statements based on a condition
+initialization;
+do{
+    //code
+    updation;
+}while(condition);
+
+
+for loops: for loop is an entry control loop used to iterate certain statements
+based on a condition. for loop contains all initialization,condition and updation in single line
+for(initialization;condition;updation)
+{
+        //code
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
