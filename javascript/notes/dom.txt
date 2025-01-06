@@ -1,0 +1,20 @@
+Document is an object which contains complete html
+Dom elements can be selected, modified or even creates new elements using Document object methods
+   i. DOM selection
+   getElementsByTagName: it is used to select an element or elements using a tag name and it returns an array
+       eg: document.getElementsByTagName('tagname')
+   getElementsByClassName : it is used to select an element or elements using a class name and it also returns an array
+      eg: getElementsByClassName('classname')
+   getElementById() : it is used to select an element usind id. it returns single element
+      eg: getElementById('idname')
+   querySelector('query'): it is used to select an element using a query but it selects only first element.
+     eg: querySelector('query'), example of query like #id,.classname,div p,p:hover
+   querySelectorAll('query'): it is used to select an element using a query but it selects querySelectorAll
+    eg: querySelectorAll('query')
+
+   ii. DOM Manipulation: To manipulate styles,content,classes or any properties of html elements, we can use following properties
+       textContent: textContent is used to select/change text inside an element
+       innerText: innerText is used to select/change text inside an element but it also considers CSS unline textContent
+       innerHTML: innerHTML is used to select/change html code
+       style: style can be used to change css using dom
+   iii. DOM creation

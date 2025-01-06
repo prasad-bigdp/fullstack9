@@ -1,0 +1,10 @@
+console.log(document)
+console.log(document.getElementsByTagName('h1')[1])
+console.log(document.getElementsByTagName('p')[1])
+console.log(document.getElementsByClassName('chitti')[0])
+console.log(document.getElementsByClassName('bujji')[1])
+console.log(document.getElementById('myEle'))
+console.log(document.getElementById('para'))
+console.log(document.querySelector('.bujji'))
+console.log(document.querySelectorAll(".bujji")[1])
+

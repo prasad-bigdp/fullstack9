@@ -30,3 +30,10 @@ Git & Github
 Javascript: introduction,
             developer tools
             data types(number-math methods,string-methods)
+            JS Engine(callstack,hoisting,debug)
+            operators
+            functions
+            arrays
+            objects
+            control statetements
+            loops

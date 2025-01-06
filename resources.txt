@@ -40,3 +40,8 @@ dev.to
 hashnode
 daily dev
 medium
+
+Javascript:
+freecodecamp
+JShero
+Javascript.info
