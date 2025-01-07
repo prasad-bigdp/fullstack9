@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(135deg,rgb(246, 192, 93),rgb(114, 245, 114));
+    height: 100vh;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    float: right;
+}
+textarea{
+    height: 50vh;
+    width: 50vw;
+    font-size: 32px;
+    resize: none;
+}
+p{
+    color: white;
+}
+.dark{
+    color: white;
+}

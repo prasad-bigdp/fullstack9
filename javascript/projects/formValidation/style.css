@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./bg.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+backdrop-filter: blur(5px) saturate(40%);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#loginBox{
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 2px 3px 50px red;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form .input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

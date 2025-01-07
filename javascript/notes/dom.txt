@@ -17,4 +17,6 @@ Dom elements can be selected, modified or even creates new elements using Docume
        innerText: innerText is used to select/change text inside an element but it also considers CSS unline textContent
        innerHTML: innerHTML is used to select/change html code
        style: style can be used to change css using dom
+       classList: classList can be used to add/remove/toggle classnames to any element
+       value : value is a property of input elements to access/change value of an input
    iii. DOM creation
