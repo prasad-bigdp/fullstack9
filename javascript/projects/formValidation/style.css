@@ -25,6 +25,7 @@ align-items: center;
 }
 form{
     display: flex;
+    width: 40vw;
     flex-direction: column;
     gap: 10px;
 }
@@ -32,4 +33,18 @@ form .input{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+.inputt{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.inputt input{
+    border: 0;
+}
+input:focus{
+    outline: 0;
+}
+.error{
+    color: red;
 }

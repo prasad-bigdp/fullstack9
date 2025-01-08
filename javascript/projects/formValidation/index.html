@@ -5,19 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="shortcut icon" href="https://img.freepik.com/free-vector/colorful-letter-p-icon-logo-design_474888-2854.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="loginBox">
         <h1>Login</h1>
-        <form action="" id="form">
+        <form id="form" onsubmit="formSubmit(event)">
             <div class="input">
                 <label>Email address:</label>
                 <input type="text" id="inpem">
+                <p id="inpError" class="error"></p>
             </div>
             <div class="input">
                 <label>Password</label>
-                <input type="text" id="inpwd">
+                <div class="inputt">
+                <input type="password" id="inpwd">
+                <i class="fa-regular fa-eye" id="eyeIcon" onclick="revealPassword()"></i>
+                </div>
+                <p id="pwdError" class="error"></p>
             </div>
             <button>Login</button>
         </form>
