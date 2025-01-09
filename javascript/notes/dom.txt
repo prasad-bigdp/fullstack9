@@ -19,4 +19,8 @@ Dom elements can be selected, modified or even creates new elements using Docume
        style: style can be used to change css using dom
        classList: classList can be used to add/remove/toggle classnames to any element
        value : value is a property of input elements to access/change value of an input
-   iii. DOM creation
+  
+   iii. DOM creation: document object can create an element using following methods:
+        1. createElement(tagname): it is used to create an element
+        2. appendChild(element): it is used to append/add an element
+        3. append(element1,element2,...): it is used to add elements
