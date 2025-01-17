@@ -1,0 +1,45 @@
+Events are activated by user's actions and they triggers the logics such as calling function
+
+events can be declared in html or js. they are two ways
+  i . eventHandlers: event handlers are triggered in html 
+  ii. eventListeners: event eventListeners are triggered in js
+  element.addEvenetListener('eventname',callback)
+
+events by default passes an event object to the respective callback
+This event object contains source element in target.
+event.target = source element.
+
+we have several types of events such as
+i. mouse events
+ii. keyboard events
+iii. form events
+iv. window events
+
+
+i. mouse events: mouse events are triggered by mouse actions
+  onclick: triggers action when an element is clicked
+  ondblclick: triggers action when an element is double clicked
+  onmouseover: triggers action when mouse is placed over an element
+  onmouseout: triggers action when mouse is placed out of the element
+
+ii. keyboard events: 
+keyboard events are triggered by keyboard actions
+  'keypress' : triggers action when a key is pressed
+
+iii. window events: window events triggers action when user performs action based on window such as
+  i.domContentLoaded: whenever dom loaded 
+  ii.abort: whenever an element/document is closing
+  iii. scroll: whenever user is scrolling
+  
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hamburger-menu{
+display: flex;
+flex-direction: row-reverse;
+justify-content: left;
+}
+.hamburger-nav{
+
+}
+button{
+    height: max-content;
+    background: transparent;
+    font-size: 48px;
+    border: none;
+    transition: all 2s ease;
+}
+.menu{
+background-color: antiquewhite;
+color: rgb(0, 0, 0);
+transform: translateX(-100%);
+list-style: none;
+height: 100vh;
+width: 20vw;
+transition: all 2s ease;
+}
+.show{
+    transform: translateX(0px);
+}

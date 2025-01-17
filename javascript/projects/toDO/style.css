@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+body{
+    background: url('./bg.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+h1{
+    font-size: 48px;
+    text-decoration: 2px wavy red underline ;
+}
+input,button{
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+#todos{
+    width: 20vw;
+}
+.strike{
+    text-decoration: 5px solid black line-through;
+}
+.listItem{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+}

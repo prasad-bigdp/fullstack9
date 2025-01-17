@@ -14,7 +14,7 @@ Dom elements can be selected, modified or even creates new elements using Docume
 
    ii. DOM Manipulation: To manipulate styles,content,classes or any properties of html elements, we can use following properties
        textContent: textContent is used to select/change text inside an element
-       innerText: innerText is used to select/change text inside an element but it also considers CSS unline textContent
+       innerText: innerText is used to select/change text inside an element but it also considers CSS unlike textContent
        innerHTML: innerHTML is used to select/change html code
        style: style can be used to change css using dom
        classList: classList can be used to add/remove/toggle classnames to any element
