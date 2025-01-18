@@ -31,7 +31,11 @@ iii. window events: window events triggers action when user performs action base
   ii.abort: whenever an element/document is closing
   iii. scroll: whenever user is scrolling
   
-
+iv. formEvents: form events triggered by input actions
+ i.input:
+ ii.change
+ iii.select
+ iv.submit
 
 
 

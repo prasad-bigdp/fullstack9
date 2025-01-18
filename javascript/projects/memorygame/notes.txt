@@ -1,0 +1,7 @@
+1. game will have 9 cards in grid format with gap
+   
+2. each card will have front and back, by default all shows backside of card
+3. onclick of any card, it rotates to reveal frontside
+4. if two cards reveal front side, check whether they are matching or not
+   i. if matching. make them fixed
+   ii. turn again back

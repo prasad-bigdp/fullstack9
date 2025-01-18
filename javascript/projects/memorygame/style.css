@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+#memory-game{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 20px;
+    place-items: center;
+}
+.card{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    backface-visibility: hidden;
+}
+.card>div{
+    position: absolute;
+}
+.card.flip{
+transform: rotateY(180deg);
+backface-visibility: visible;
+}

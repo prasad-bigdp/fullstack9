@@ -36,12 +36,27 @@
 //     }
 // }
 // document.addEventListener('keypress',fun)
-document.addEventListener('scroll', function (e)
+// document.addEventListener('scroll', function (e)
+// {
+//     console.log(e)
+// })
+document.getElementById('na').addEventListener('input', function (e)
 {
+    console.log("my name is "+e.target.value)
+})
+document.getElementById("gender").addEventListener('change', function (e)
+{
+    console.log(e.target.value)
+})
+// document.getElementById('one').addEventListener('select', function ()
+// {
+//     console.log("hi")
+// })
+document.getElementById('form').addEventListener('submit', function (e)
+{
+    e.preventDefault()
     console.log(e)
 })
-
-
 
 
 
