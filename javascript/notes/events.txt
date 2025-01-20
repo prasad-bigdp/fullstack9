@@ -32,10 +32,21 @@ iii. window events: window events triggers action when user performs action base
   iii. scroll: whenever user is scrolling
   
 iv. formEvents: form events triggered by input actions
- i.input:
- ii.change
- iii.select
- iv.submit
+ i.input: triggered when user inputs a value
+ ii.change: triggered when user changes a value(dropdown,radio,checkbox)
+ iii.select: triggered when user selects an element
+ iv.submit: triggered when user submits an element
+
+event propagation: events propagated in a certain direction
+ i. bubbling: this is the default event propogation. events propogate from inner to outer
+
+ ii. capturing: to make it happen, we have to keep third argument of addEvenetListener to true. events propogate from outer to inner
+
+
+ The design pattern in which we trigger parent instead of indivial child items is known as event delegation.
+
+
+ 
 
 
 
