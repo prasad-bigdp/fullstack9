@@ -1,0 +1,17 @@
+Asynchronous JAavscript(AJAX): it is a web development technique that allows for Asynchronous communication between browser and server.
+it enables developers to create dynamic and interactive web pages that can update content without reloading the full page.
+
+AJAX can be done using timers, promises, api's etc..,
+
+Timers: Timers are used to delay a specific task . it is a web API similar to console,document.
+There are two timers available, 
+  i. setTimeout:
+  setTimeout is used to delay a function execution for certain time.
+  setTimeout(fn,time in ms)
+  ii.setInterval: 
+  setInterval is used to delay a function with certain intervals of time
+  setInterval(fn,time in ms)
+
+
+
+
