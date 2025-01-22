@@ -32,18 +32,43 @@
 //     clearInterval(x)
 // })
 
-function fun ()
+// function fun ()
+// {
+//     console.log("hello world")
+// }
+// setTimeout(fun, 1);
+// for (let i = 0; i < 1000; i++)
+// {
+//     console.log("bye world")
+// }
+// for (let i = 0; i < 1000; i++) {
+// 	console.log("bye world2")
+// }
+// for (let i = 0; i < 1000; i++) {
+// 	console.log("bye world3")
+// }
+
+
+let c = document.getElementById('clock')
+function displayClock ()
 {
-    console.log("hello world")
+    let dt = new Date()
+    console.log(dt.toLocaleTimeString())
+    c.textContent = dt.toLocaleTimeString()
 }
-setTimeout(fun, 1);
-for (let i = 0; i < 1000; i++)
-{
-    console.log("bye world")
-}
-for (let i = 0; i < 1000; i++) {
-	console.log("bye world2")
-}
-for (let i = 0; i < 1000; i++) {
-	console.log("bye world3")
-}
+setInterval(displayClock,1000)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
