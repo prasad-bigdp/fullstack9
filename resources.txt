@@ -45,3 +45,10 @@ Javascript:
 freecodecamp
 JShero
 Javascript.info
+
+
+
+API's:
+https://official-joke-api.appspot.com/random_joke
+
+

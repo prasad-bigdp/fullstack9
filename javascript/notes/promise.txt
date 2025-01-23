@@ -20,7 +20,7 @@ Basic Promise Syntax:
 // Creating a Promise
 const basicPromise = new Promise((resolve, reject) => {
     // Async operation here
-    const success = true;
+    const success = false;
     
     if (success) {
         resolve("Operation successful!");
