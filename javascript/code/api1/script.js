@@ -20,7 +20,7 @@ function getData ()
 // 			}) //new promise resolved
 // 			.catch((err) => console.log(err)) //if promise rejected
 // }
-getLocation()
+// getLocation()
 setInterval(getData, 5000)
 function displayData (data)
 {

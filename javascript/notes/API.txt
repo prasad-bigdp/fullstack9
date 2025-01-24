@@ -1,1 +1,24 @@
 API(Application Programming interface):
+   API's are used to get/post/update/delete data based on endpoints. They acts like a bridge/connection between client and server
+   Server creates an endpoint and places the data
+   client access the end point and retrives the data
+
+There are different kinds of API's such as SOAP API,graphQL,REST API's. Most popular web developement API is REST API
+In this REST API, data transfers as a JSON(Javascript object notation).
+
+In olden times, for cclient-server requests, we used to use xmlHtttpRequest(XHR), but browsers implements its own native method 'fetch' to do client-server requests
+
+syntax: fetch(url,propertiesObject)
+
+using propertiesObject , we can do all requests such as GET,POST,PUT,DELETE etc..,
+
+
+
+
+
+
+
+
+
+
+
