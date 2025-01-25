@@ -1,0 +1,32 @@
+Javascript versions are maintained by ecmsscript means on adding a new features that supports js, new ecmascript version will be released.
+current version of Ecmascript is ES15
+but ES6 is the most feature packed version of js.it is release in 2015.
+
+   i. let and const : let and const are introduced in 2015(ES6). They are block scoped variable and they do not be used before initialization.
+   let and const cannot be redeclared. let can reassign but const can'that
+
+   ii. template literals. template literals are also introduced in ES6. They are used for dynamic string without breaking it.
+
+   iii. Arrow functions:Arrow functions are the modern approach of function expressions. They do not need to mention return keyword or braces if only one statement is there
+
+   iv. default parameters: if a function is not call/passing enogh parameters, it will take default values.
+
+   v. rest and spread operators: rest operator is used to take the values
+     and box them up as a array
+     spread operator is used to give the values by unboxing from the array
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+

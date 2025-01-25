@@ -1,0 +1,25 @@
+async await:
+   it is a modern approach to resolve promise chaining. insead of using then,catch, we can use await keyword to make code looks more linear and simple.
+   Eg: Instead of writing
+   fetch(url)
+    .then(callback)
+    .catch(callback)
+
+    we can write async
+    await fetch(url)
+
+    We can resolve errors by using error handling blocks
+    errors handling is used to handle the errors using try,catch,finally,throw
+    eg: let name= "prasad"
+    try{
+        if(name=="prasad){
+            throw new Error("do not use this name")
+        }
+        else{
+            console.log(name)
+        }
+    }
+    catch(err){
+        console.log(err)
+    }
+    irrespective of errors, finally block will runs always

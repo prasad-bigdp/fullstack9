@@ -3,20 +3,45 @@ const button = document.getElementById('btn')
 button.addEventListener("click", searchPokemon)
 const maindiv = document.getElementById("main")
 mypokeArr=[]
-function getPokemons ()
-{
-    fetch("https://pokeapi.co/api/v2/pokemon?limit=100")
-        .then((res) => res.json())
-        .then((data) => { mypokeArr = data.results; displayData(data.results) })
-        .catch((err) => console.log(err))
+// function getPokemons ()
+// {
+//     fetch("https://pokeapi.co/api/v2/pokemon?limit=100")
+//         .then((res) => res.json())
+//         .then((data) => { mypokeArr = data.results; displayData(data.results) })
+//         .catch((err) => console.log(err))
+// }
+async function getPokemons() {
+    try
+    {
+        const res= await fetch("https://pokeapi.co/api/v2/pokemon?limit=100")
+	    const data= await res.json()	
+	    mypokeArr = data.results
+	    displayData(data.results)
+    }
+    catch (err)
+    {
+        console.log(err)
+    }
+
 }
 getPokemons()
-function searchPokemon ()
+async function searchPokemon ()
 {
-     fetch(`https://pokeapi.co/api/v2/pokemon/${input.value}`)
-				.then((res) => res.json())
-				.then((data) => displayData2(data))
-				.catch((err) => console.log(err))
+    try
+    {
+        const res= await fetch(`https://pokeapi.co/api/v2/pokemon/${input.value}`)
+        const data = await res.json()
+        displayData2(data);
+    }
+    catch (err)
+    {
+        console.log(err)
+    }
+    finally
+    {
+        console.log("hi")
+    }
+
 }
 function displayData2 (pokemon)
 {
