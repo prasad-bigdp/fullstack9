@@ -1,0 +1,18 @@
+library is a prewritten code used for specific purpose.
+ i. get cdn link and attach to code
+ ii. check documentation for code.
+
+ There are so many js libraries for specic purposes
+ Most popular libraries are:
+ i. jquery: use it for DOM and AJAX
+ ii. react: use it for User Interface
+ iii. AOS : use it for animate on scroll animations
+ iv. GSAP : use it for animations
+ v. three js: use it 3d websites
+ vi. swiper js: use it for sliders
+ vii. leaflet js: use it for maps
+ viii. amcharts : use it for charts
+ and many more
+
+
+

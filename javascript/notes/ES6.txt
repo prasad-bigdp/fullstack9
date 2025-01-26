@@ -15,6 +15,24 @@ but ES6 is the most feature packed version of js.it is release in 2015.
      and box them up as a array
      spread operator is used to give the values by unboxing from the array
 
+  vii. Destructuring:
+    Destructuring is used to split the values of arrays or object into individual
+    array Destructuring: it will split array values as individual
+    object Destructuring: it will takeout object values as individual
+
+ viii. module system: when dealing with multiple script files, transferring data from one script file to another script file can be done using modules
+ we have different module systems such as common js, require js etc..,
+ but after ES6, JS have its own module system ES6 module system
+
+ we use keywords such as "export" and "import" to export/import different assets(functions,data etc..,)
+
+
+
+
+
+
+
+
 
 
 
