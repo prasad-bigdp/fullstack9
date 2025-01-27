@@ -1,0 +1,13 @@
+Browser object model: The whole browser functions or data is driven by an object called 'window'
+for eg: function x(){ console.log("hi") }
+window.x()
+
+using window, we can perform multiple activities such as 
+user location, user camera, copy/paste
+
+explore the window:
+ i. user location:
+ 
+
+
+
