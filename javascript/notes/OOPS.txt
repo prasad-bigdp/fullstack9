@@ -1,0 +1,42 @@
+Object oriented Programming in JS:
+There are different kinds of programming approaches such as POP(procedure oriented programming),OOP,FP(functional programming) etc..,
+
+JS supports both FP and OOP.
+An object is a physical entity with properties and menthods
+eg: object like fan have color,speed,no.of.wings and it can do rotation,
+object like apple have color,taste,shape 
+
+A collection of objects or A blueprint of objects is called class. it is a general idea of an object
+Eg: Human is a class,prasad is object
+Fruit is a class but specific fruit is object
+
+classes are used to define structure/model for an object generally
+Eg: class Teacher{
+    name;age;salary;subject;
+}
+create an object: let obj-name= new classname();
+new is a keyword to create object memory dynamically
+
+let prasad= new Teacher();
+classname() is called constructor. constructor is used to define/initiate the data. constructor is the first method called by object creation
+class Teacher
+{
+    name; subject; salary;
+    constructor(n,s,sa)
+    {
+        this.name = n;
+        this.subject = s;
+        this.salary = sa;
+    }
+}
+let obj = new Teacher("Prasad","physics",52000);
+
+'this' is a keyword to refer current calling object
+
+classes are used for encasupating the data (wrapping up data and methods into one unit )
+
+
+
+
+
+
